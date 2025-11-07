@@ -109,7 +109,7 @@ def find_word_in_string(w, s):
 
 def generate_instruction_following_data(
     output_dir="./",
-    seed_tasks_path="./seed_tasks.jsonl",
+    seed_tasks_path="auto_seed_generation/seed_tasks_for_gen.jsonl",
     num_instructions_to_generate=100,
     model_name="text-davinci-003",
     num_prompt_instructions=3,
